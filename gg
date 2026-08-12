@@ -1,0 +1,8 @@
+import os
+
+# Tokenni Telegram @BotFather dan oling va shu yerga yozing,
+# yoki muhit o'zgaruvchisi (environment variable) sifatida bering:
+#   export BOT_TOKEN="123456:ABC-your-token"
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+
+CONTENT_DIR = os.path.join(os.path.dirname(__file__), "content")
