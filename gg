@@ -2,7 +2,7 @@ import os
 
 # Tokenni Telegram @BotFather dan oling va shu yerga yozing,
 # yoki muhit o'zgaruvchisi (environment variable) sifatida bering:
-#   export BOT_TOKEN="123456:ABC-your-token"
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+#   export  ="8978123061:AAFvwcq7HHdUJL1ItAfXN-NQISqBsXktRbY 123456:ABC-your-token"
+8978123061:AAFvwcq7HHdUJL1ItAfXN-NQISqBsXktRbY = os.environ.get("8978123061:AAFvwcq7HHdUJL1ItAfXN-NQISqBsXktRbY", "YOUR_BOT_TOKEN_HERE")
 
 CONTENT_DIR = os.path.join(os.path.dirname(__file__), "content")
